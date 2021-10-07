@@ -1,3 +1,4 @@
+//// reference to https://github.com/DefTruth/lite.ai.toolkit/blob/main/ort/cv/rvm.cpp
 #define _CRT_SECURE_NO_WARNINGS
 #include <fstream>
 #include <iostream>
@@ -254,9 +255,9 @@ int main()
 
 		//if (content.flag)
 		//{
-		//	if (!content.fgr_mat.empty()) imwrite("rvm_fgr.jpg", content.fgr_mat); // Ô¤²âµÄÇ°¾°fgr
-		//	if (!content.pha_mat.empty()) imwrite("rvm_pha.jpg", content.pha_mat * 255.); // Ô¤²âµÄÇ°¾°pha
-		//	if (!content.merge_mat.empty()) imwrite("rvm_merge.jpg", content.merge_mat); // ºÏ³ÉÍ¼
+		//	if (!content.fgr_mat.empty()) imwrite("rvm_fgr.jpg", content.fgr_mat); // é¢„æµ‹çš„å‰æ™¯fgr
+		//	if (!content.pha_mat.empty()) imwrite("rvm_pha.jpg", content.pha_mat * 255.); // é¢„æµ‹çš„å‰æ™¯pha
+		//	if (!content.merge_mat.empty()) imwrite("rvm_merge.jpg", content.merge_mat); // åˆæˆå›¾
 		//}
 
 		string kWinName = "src image";
